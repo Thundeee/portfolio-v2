@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-v2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "sass src/scss/index.scss:dist/css/stylesheet.css",
+    "devMode": "sass --watch src/scss/index.scss:dist/css/stylesheet.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thundeee/portfolio-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thundeee/portfolio-v2/issues"
+  },
+  "homepage": "https://github.com/Thundeee/portfolio-v2#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.57.1"
+  }
+}
