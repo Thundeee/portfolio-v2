@@ -1,4 +1,11 @@
+p, li, ul, button {
+    font-size: 18px !important;
+}
 
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 4000ms;
+}
 
 .first {
     background: linear-gradient(
@@ -27,10 +34,23 @@
     );
   }
 
+  .fourth {
+    background: linear-gradient(
+      180deg,
+      rgba(63, 166, 146, 1) 0%,
+      rgba(71, 132, 166, 1) 100%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
 
 img {
     width: 75px;
     height: 75px;
   }
+
+.spacer {
+    height: 20vh
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

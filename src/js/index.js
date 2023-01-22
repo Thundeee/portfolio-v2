@@ -1,5 +1,4 @@
 import { projects } from "./utils/projects.js";
-
 if (document.querySelector('.historyReturn')) {
     document.querySelector('.historyReturn').addEventListener('click', () => {
 console.log('historyReturn');    });
@@ -24,7 +23,7 @@ let currentText = dropdownText.innerText;
 let content = document.querySelector('.content');
 
 dropdown.addEventListener('click', function(event) {
-
+console.log(event)
         if (event.target.innerText === currentText) {
             return;
         }

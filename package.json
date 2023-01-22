@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Thundeee/portfolio-v2#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "sass": "^1.57.1"
   }
