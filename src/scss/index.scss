@@ -1,11 +1,7 @@
-p, li, ul, button {
+p, li, ul, button, i {
     font-size: 18px !important;
 }
 
-body[data-aos-duration='4000'] [data-aos],
-[data-aos][data-aos][data-aos-duration='4000'] {
-  transition-duration: 4000ms;
-}
 
 .first {
     background: linear-gradient(

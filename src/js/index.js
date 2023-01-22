@@ -17,6 +17,14 @@ if (window.location.pathname === '/index.html' || window.location.pathname === '
 
 }
 
+if (document.querySelector('.dropdown')) {
+    dropdownFunction();
+}
+
+
+function dropdownFunction() {
+    
+
 let dropdown = document.querySelector('.dropdown');
 let dropdownText = document.querySelector('.dropdown-toggle');
 let currentText = dropdownText.innerText;
@@ -54,4 +62,4 @@ console.log(event)
                 break;
           }
 });
-  
+  }
