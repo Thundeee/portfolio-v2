@@ -25,13 +25,15 @@
 <body class="second">
     <main class="">
 
-      <div class="first pt-3 text-center">
+      <div class="first pt-3 text-center ">
         <h1>Unite Bot</h1>
           <h2>About</h2>
-          <p class="mx-5 ">
+          <p class="mx-5 bg-white bg-opacity-10 d-lg-inline-block p-2">
            Unite Bot is a project I still work on from time to time. This project uses a bunch of different libraries and tech put together. This is a discord bot for the game "Pokemon Unite".
            The game does not have a public api but there is a website displaying stats about all playable characters. What this bot does is that it scrapes the website and then converts the data into a JSON file to then display the stats in lists the users want in discord.
             For example a user can write "!topmon pickrate 10" and the bot would show the top 10 highest pickrate Pokemon the last 7 days.
+            <br>
+            <br>
             To not "spam" the website, the bot checks if the data is older than 1 hour and if it is, it will scrape the website again and update the JSON file.
             Another feature on this project that I made was for it to also host an API from the scraped data so that other developers can use the data in their own projects.
             Since the bot is still currently in development, my API is not public yet!
@@ -53,11 +55,11 @@
             <div id="carouselSingle" class="carousel slide col-12 col-md-5" data-bs-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
-    <img src="./assets/UniteBot/unite1.png" class="d-block w-100 imgCaroItem" alt="Picture of commands using Unite Bot">
+    <img src="./assets/UniteBot/unite1.png" class="d-block w-100 imgCaroItem" alt="Basic pokemon stats command">
     </div><div class="carousel-item">
-    <img src="./assets/UniteBot/unite2.png" class="d-block w-100 imgCaroItem" alt="Picture of commands using Unite Bot">
+    <img src="./assets/UniteBot/unite2.png" class="d-block w-100 imgCaroItem" alt="Topmons command showing top 3 winrates">
     </div><div class="carousel-item">
-    <img src="./assets/UniteBot/unite3.png" class="d-block w-100 imgCaroItem" alt="Picture of commands using Unite Bot">
+    <img src="./assets/UniteBot/unite3.png" class="d-block w-100 imgCaroItem" alt="Topmons command with multiple arguments showing bottom 20 pickrates  ">
     </div></div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselSingle" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,12 +76,12 @@
 
     
           <h2>What I would do different</h2>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled bg-white bg-opacity-10 d-lg-inline-block p-2">
             <li>Find a even more reliable/better way to scrape</li>
             <li>Added more features!</li>
           </ul>
 
-          
+          <br>
     
         <a href="index.html" class="btn btn-secondary">Return to home page</a>
         <div class="spacer"></div>
