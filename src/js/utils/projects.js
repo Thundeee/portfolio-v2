@@ -4,9 +4,7 @@ let projectTemplate = `<div class="bg-white bg-opacity-10 pb-2 col-12">
 <p>Text.</p>
    <a href="#GithubLink" class="btn btn-primary mb-1" role="button">View Project on <i class="bi bi-github" title="Github"></i> Github</a>
    <a href="#HtmlLink" class="btn btn-primary mb-1" role="button">Read More about this project</a>
-</div>`
-
-
+</div>`;
 
 let projectOne = `<div class="bg-white bg-opacity-10 pb-2 col-12">
 <h3>Auction House</h3>
@@ -15,7 +13,7 @@ let projectOne = `<div class="bg-white bg-opacity-10 pb-2 col-12">
 
    <a href="https://github.com/Thundeee/Auction-House" class="btn btn-primary mb-1" role="button">View Project on <i class="bi bi-github" title="Github"></i> Github</a>
    <a href="./projectOne.html" class="btn btn-primary mb-1" role="button">Read More about this project</a>
-</div>`
+</div>`;
 
 let projectTwo = `<div class="bg-white bg-opacity-10 pb-2 col-12">
 <h3>Unite Bot</h3>
@@ -26,8 +24,7 @@ Unite Bot is a Discord bot I made as a passion project. The bot is made in JavaS
 This project was made to learn new technologies and to have fun. There is a bunch of exciting things going on in this project so if you're only going to check out one of my projects, this is the one!
 </p>
 <a href="./projectTwo.html" class="btn btn-primary mb-1" role="button">Read More about this project</a>
-</div>`
-
+</div>`;
 
 let projectThree = `<div class="bg-white bg-opacity-10 pb-2 col-12">
 <h3>Workflow</h3>
@@ -40,8 +37,6 @@ The Project used Github Pages for hosting and had to pass all tests before being
 <a href="https://github.com/Thundeee/social-media-client/tree/workflow" class="btn btn-primary mb-1" role="button">View Project on <i class="bi bi-github" title="Github"></i> Github</a>
      <a href="./projectThree.html" class="btn btn-primary mb-1" role="button">Read More about this project</a>
 
-</div>`
-
-
+</div>`;
 
 export const projects = [projectOne, projectTwo, projectThree];
