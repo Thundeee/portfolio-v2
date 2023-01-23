@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/stylesheet.css" />
+    <script
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+    <script src="node_modules/aos/dist/aos.js" defer></script>
+    <script type="module" src="./src/js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Portfolio - Unite Bot</title>
+</head>
+<body class="second">
+    <main class="">
+
+      <div class="first pt-3 text-center ">
+        <h1>Unite Bot</h1>
+          <h2>About</h2>
+          <p class="mx-5 bg-white bg-opacity-10 d-lg-inline-block p-2">
+           Unite Bot is a project I still work on from time to time. This project uses a bunch of different libraries and tech put together. This is a discord bot for the game "Pokemon Unite".
+           The game does not have a public api but there is a website displaying stats about all playable characters. What this bot does is that it scrapes the website and then converts the data into a JSON file to then display the stats in lists the users want in discord.
+            For example a user can write "!topmon pickrate 10" and the bot would show the top 10 highest pickrate Pokemon the last 7 days.
+            <br>
+            <br>
+            To not "spam" the website, the bot checks if the data is older than 1 hour and if it is, it will scrape the website again and update the JSON file.
+            Another feature on this project that I made was for it to also host an API from the scraped data so that other developers can use the data in their own projects.
+            Since the bot is still currently in development, my API is not public yet!
+            This bot uses Node.js, puppeteer and discord.js.
+
+            <br>
+            <br>
+            This project is something I am proud of and I am still working on it from time to time. I have learned a lot from this project and I am still learning new things every time i work on it.
+          </p>
+          <h2>What I learned</h2>
+          <ul class="list-unstyled bg-white bg-opacity-10 d-lg-inline-block p-2">
+            <li>Web Scraping</li>
+            <li>Proper JSON usage</li>
+            <li>API creation</li>
+            <li>Arguments handling when its either one or multiple</li>
+          </ul> 
+
+          <div class="d-flex flex-column flex-md-row m-1 justify-content-center">
+            <div id="carouselSingle" class="carousel slide col-12 col-md-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+    <img src="./assets/UniteBot/unite1.png" class="d-block w-100 imgCaroItem" alt="Basic pokemon stats command">
+    </div><div class="carousel-item">
+    <img src="./assets/UniteBot/unite2.png" class="d-block w-100 imgCaroItem" alt="Topmons command showing top 3 winrates">
+    </div><div class="carousel-item">
+    <img src="./assets/UniteBot/unite3.png" class="d-block w-100 imgCaroItem" alt="Topmons command with multiple arguments showing bottom 20 pickrates  ">
+    </div></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSingle" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSingle" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+            </div> 
+    
+          <h2>What I would do different</h2>
+          <ul class="list-unstyled bg-white bg-opacity-10 d-lg-inline-block p-2">
+            <li>Find a even more reliable/better way to scrape</li>
+            <li>Added more features!</li>
+          </ul>
+
+          <br>
+    
+        <a href="index.html" class="btn btn-secondary">Return to home page</a>
+        <div class="spacer"></div>
+      </div>
+    </main>
+  
+    <footer class="">
+    </footer>  
+
+
+</body>
+</html>

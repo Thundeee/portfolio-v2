@@ -1,0 +1,58 @@
+p, li, ul, button, i {
+    font-size: 18px !important;
+}
+
+
+.first {
+    background: linear-gradient(
+      180deg,
+      rgba(71, 132, 166, 1) 0%,
+      rgba(164, 96, 93, 1) 100%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+.second {
+    background: linear-gradient(
+      180deg,
+      rgba(164, 96, 93, 1) 0%,
+      rgba(71, 132, 166, 1) 100%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+.third {
+    background: linear-gradient(
+      180deg,
+      rgba(71, 132, 166, 1) 0%,
+      rgba(63, 166, 146, 1) 100%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .fourth {
+    background: linear-gradient(
+      180deg,
+      rgba(63, 166, 146, 1) 0%,
+      rgba(71, 132, 166, 1) 100%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+
+.Techimg {
+    width: 75px;
+    height: 75px;
+  }
+
+.spacer {
+    height: 20vh
+}
+
+.imgCaroItem {
+  height: 50vh !important;
+  object-fit: scale-down !important;
+  object-position: center !important;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
