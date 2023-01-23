@@ -4,7 +4,7 @@ if (document.querySelector('.historyReturn')) {
 console.log('historyReturn');    });
 }
     
-if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
+if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/portfolio-v2/index.html' || window.location.pathname === '/portfolio-v2/') {
     window.onbeforeunload = function() {
     sessionStorage.setItem('scrollIndex', window.scrollY);
   }
