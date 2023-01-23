@@ -31,9 +31,9 @@ This project was made to learn new technologies and to have fun. There is a bunc
 
 let projectThree = `<div class="bg-white bg-opacity-10 pb-2 col-12">
 <h3>Workflow</h3>
-<img src="./assets/noroff_logo.png" alt="Unite Icon Gengar" class="img-fluid col-3">
+<img src="./assets/noroff_logo.png" alt="Noroff Logo" class="img-fluid col-3">
 <p class="col-8 m-auto mb-2">
-  Workflow was a school assignement where we were tasked to work as a QA Engineer and implement tests for developers. I implemented auto formatting, linting, unit tests and end-to-end tests to the existing project, creating a CI/CD pipeline.
+  Workflow was a school assignement where we were tasked to work as a QA Engineer and implement tests for developers. I implemented auto formatting, linting, unit tests and end-to-end tests to the existing project, creating the start of a CI/CD pipeline.
 The Project used Github Pages for hosting and had to pass all tests before being deployed.
 </p>
 
