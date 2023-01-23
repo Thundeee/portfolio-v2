@@ -7,7 +7,9 @@ This is the second version of my portfolio.
 
 ## Projects included
 Unite Bot
+
 Auction House
+
 Workflow social media client
 
 ## Hosting
